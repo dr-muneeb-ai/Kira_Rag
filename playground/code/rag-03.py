@@ -4,7 +4,6 @@ from pathlib import Path
 from langchain.chat_models import init_chat_model
 from langchain.embeddings import init_embeddings
 
-
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.vectorstores import InMemoryVectorStore
@@ -16,13 +15,10 @@ from langchain_core.vectorstores import InMemoryVectorStore
 
 CHAT_PROVIDER = "ollama"
 CHAT_MODEL = "gemma3:4b"
-
 EMBEDDING_PROVIDER = "ollama"
 EMBEDDING_MODEL = "nomic-embed-text:latest"
-
 CHUNK_SIZE = 600
 CHUNK_OVERLAP = 100
-
 TOP_K = 3
 SCORE_THRESHOLD = 0.5
 
