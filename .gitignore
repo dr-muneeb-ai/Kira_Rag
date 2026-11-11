@@ -18,3 +18,4 @@ node_modules/
 # Local experiments (Jupyter notebooks, scratch code)
 /notebooks/
 /playground/
+playground/
